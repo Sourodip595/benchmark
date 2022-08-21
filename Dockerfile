@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:17-jdk-oracle
 VOLUME /tmp
 EXPOSE 7000
 ADD target/*.jar app.jar
