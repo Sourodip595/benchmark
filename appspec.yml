@@ -5,6 +5,6 @@ Resources:
       Properties:
         TaskDefinition: "arn:aws:ecs:us-east-1:860061945305:task-definition/audit-benchmark7000-task:1"
         LoadBalancerInfo:
-          ContainerName: "audit-benchmark02"
+          ContainerName: "audit-authorization02"
           ContainerPort: "7000"
         PlatformVersion: "LATEST"
