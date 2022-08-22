@@ -10,7 +10,7 @@ phases:
     - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 860061945305.dkr.ecr.us-east-1.amazonaws.com
     - IMAGE_NAME=audit-benchmark02
     - IMAGE_URI=860061945305.dkr.ecr.us-east-1.amazonaws.com/audit-benchmark02:latest
-    - CONTAINER_NAME=audit-benchmark02
+    - CONTAINER_NAME=audit-authorization02
   build:
     commands:
     - echo Build started on `date`
