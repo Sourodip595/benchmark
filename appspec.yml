@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-1:860061945305:task-definition/audit-benchmark7000-task:1"
+        TaskDefinition: "arn:aws:ecs:us-east-1:860061945305:task-definition/audit-benchmark7000-task:2"
         LoadBalancerInfo:
           ContainerName: "audit-authorization02"
           ContainerPort: "7000"
